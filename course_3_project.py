@@ -3,7 +3,6 @@ import json
 
 
 #1
-
 def get_movies_from_tastedive(movie_name):
     '''
     Define a function, called get_movies_from_tastedive.
@@ -35,7 +34,6 @@ def get_movies_from_tastedive(movie_name):
 
 
 #2
-
 def get_movies_from_tastedive(movie_name):
 
     base_url = 'https://tastedive.com/api/similar'
@@ -66,7 +64,6 @@ def extract_movie_titles(response):
 
 
 #3
-
 def get_movies_from_tastedive(movie_name):
     base_url = 'https://tastedive.com/api/similar'
     params_dict = {'q': movie_name, 'type': 'movies', 'limit': '5'}
@@ -107,7 +104,6 @@ def get_related_titles(movie_titles_list):
 
 
 #4
-
 def get_movie_data(movie_name):
     '''
     Your next task will be to fetch data from OMDB. The documentation for the API is at https://www.omdbapi.com/
@@ -136,7 +132,6 @@ def get_movie_data(movie_name):
 
 
 #5
-
 def get_movie_data(movie_name):
     '''
     Please copy the completed function from above into this active code window.
@@ -165,8 +160,8 @@ def get_movie_rating(movies_dict):
 # get_movie_rating(get_movie_data("Deadpool 2"))
 
 
-#6
 
+#6
 # Now, you’ll put it all together.
 # Don’t forget to copy all of the functions that you have previously defined into this code window.
 
